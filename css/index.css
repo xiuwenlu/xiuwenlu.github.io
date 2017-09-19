@@ -1,0 +1,75 @@
+head, body, .navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
+    color: white;
+}
+
+#header-section {
+    margin-top: 4%;
+    background-image: url('../images/macau.jpg');
+	padding-top:20px;
+	text-align:center;
+	background-position: center center;
+	min-height: 700px;
+	width: 100%;	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.glyphicon {
+    color: white;
+    font-size: 50px;
+}
+#about-section, #locations {
+    color: black;
+    text-align: center;
+}
+#about-section {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+#mytravels-section {
+    margin-left: 5%;
+    margin-right:5%;
+}
+#me {
+    margin-top: 10%;
+    margin-left: 2%;
+}
+#resume {
+    margin-top: 5%;
+}
+.img {
+    height: 500px;
+}
+#disqus_thread {
+    padding-left: 5%;
+    padding-right: 5%; 
+}
+#locations {
+    margin-bottom: 3%;
+}
+.carousel-inner {
+    max-height: 550px;
+}
+.carousel-inner img {
+    width: auto;
+    height: auto;
+    max-height: 550px;
+}
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img{
+    display: inline;
+}
+
+@media only screen and (max-width: 500px) {
+    iframe {
+        width: 380px;
+        margin-left: -1%;
+    }
+    #about-section h1, p {
+        text-align: center;
+    }
+}
