@@ -1,6 +1,6 @@
 head, body, .navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
     color: white;
-    font-family: 'Lato';
+    font-family: 'Poiret+One', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 body, html {
     width: 100%;
@@ -25,6 +25,7 @@ body, html {
     font-size: 3.5em;
     text-align: center;
     padding: 15%;
+    font-family: 'Caveat Brush', cursive;
 }
 #header-section img {
     height: auto;
