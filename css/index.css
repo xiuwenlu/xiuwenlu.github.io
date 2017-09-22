@@ -2,7 +2,10 @@ head, body, .navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
     color: white;
     font-family: 'Lato';
 }
-
+body, html {
+    width: 100%;
+    overflow-x: hidden;
+}
 #header-section {
     margin-top: 4%;
     background-image: url('../images/taiwan/GaoMei.jpeg');
@@ -36,19 +39,23 @@ head, body, .navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
     text-align: center;
 }
 #about-section {
-    padding-top: 3%;
-    padding-bottom: 3%;
+    padding-top: 1%;
+    padding-bottom: 4%;
 }
 #mytravels-section {
     margin-left: 5%;
     margin-right:5%;
 }
+#about-section iframe {
+    margin-top: 3%;
+}
 #me {
-    margin-top: 10%;
+    margin-top: 6%;
     margin-left: 2%;
 }
 #resume {
-    margin-top: 5%;
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
 .img {
     height: 500px;
@@ -76,17 +83,30 @@ head, body, .navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
     background-color: black;
     text-align: right;
 }
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 700px) {
+    iframe {
+        width: 500px;
+        margin-left: 3%;
+        margin-right: 0%;
+        float: center;
+    }
+    #about-section h1, p {
+        text-align: center;
+    }
+    #disqus_thread {
+        padding-right: 10%;
+    }
+   
+}
+@media only screen and (max-width: 550px) {
     iframe {
         width: 350px;
-        margin-left: 5%;
+        margin-left: 3%;
         margin-right: 5%;
         float: center;
     }
     #about-section h1, p {
         text-align: center;
     }
-    body {
-        margin: 0px;
-    }
+
 }
