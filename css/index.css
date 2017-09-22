@@ -85,7 +85,8 @@ head, body, .navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
         text-align: center;
     }
     body {
-        margin-right: -5%;
+        width: auto;
+        margin: 0px;
     }
 
 }
