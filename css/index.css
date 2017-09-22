@@ -76,16 +76,17 @@ head, body, .navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
     background-color: black;
     text-align: right;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 750px) {
     iframe {
-        width: 380px;
-        margin-left: -.5%;
+        width: 350px;
+        margin-left: 5%;
+        margin-right: 5%;
+        float: center;
     }
     #about-section h1, p {
         text-align: center;
     }
     body {
-        margin-right: -50px;
+        margin: 0px;
     }
-
 }
