@@ -1,15 +1,14 @@
 head, body, .navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
     color: white;
+    font-family: 'Open Sans Pro';
 }
 
 #header-section {
     margin-top: 4%;
-    background-image: url('../images/macau.jpg');
-	padding-top:20px;
+    background-image: url('../images/taiwan/GaoMei.jpeg');
 	text-align:center;
 	background-position: center center;
-	min-height: 700px;
-	width: 100%;	
+	width: 100%;
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -19,9 +18,18 @@ head, body, .navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
     -o-background-size: cover;
     background-size: cover;
 }
+#header-section h1 {
+    font-size: 3.5em;
+    text-align: center;
+    padding: 15%;
+}
+#header-section img {
+    height: auto;
+}
 .glyphicon {
     color: white;
     font-size: 50px;
+    padding-top: 7%;
 }
 #about-section, #locations {
     color: black;
@@ -64,6 +72,10 @@ head, body, .navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
     display: inline;
 }
 
+#footer {
+    background-color: black;
+    text-align: right;
+}
 @media only screen and (max-width: 500px) {
     iframe {
         width: 380px;
@@ -72,4 +84,8 @@ head, body, .navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
     #about-section h1, p {
         text-align: center;
     }
+    body {
+        margin: 0;
+    }
+
 }
