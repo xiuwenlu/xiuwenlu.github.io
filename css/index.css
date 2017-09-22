@@ -1,6 +1,6 @@
 head, body, .navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
     color: white;
-    font-family: 'Open Sans Pro';
+    font-family: 'Lato';
 }
 
 #header-section {
@@ -85,7 +85,7 @@ head, body, .navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
         text-align: center;
     }
     body {
-        margin: 0;
+        margin-right: -2%;
     }
 
 }
